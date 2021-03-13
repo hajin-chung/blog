@@ -1,15 +1,13 @@
 {
   "name": "Decompressed Poems",
   "description": "Hajin Chung's personal blog ",
-  "url": "https://reeseschultz.github.io",
-  "baseUrl": "/11r/",
+  "url": "https://decompressed-poems.netlify.app/",
+  "baseUrl": "/",
   "author": {
-    "handle": "@ReeseCodes",
-    "name": "Reese Schultz"
+    "handle": "@HajinChung",
+    "name": "Hajin Chung"
   },
   "images": {
-    "twitter": "twitter.jpg",
-    "og": "og.jpg"
   },
   "feed": {
     "filename": "feed.xml",
