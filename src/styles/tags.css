@@ -1,0 +1,48 @@
+@keyframes tag-hover {
+  100% {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+.tag {
+  @apply inline-block px-4 py-2 mr-2 mb-2 text-xs font-bold rounded lowercase text-white;
+  border: 1px solid transparent;
+}
+
+.tag:hover {
+  animation: tag-hover 500ms both;
+}
+
+.tag:before {
+  content: "#";
+}
+
+.tag.p1p1 {
+  @apply bg-red-700;
+}
+
+.tag.productivity {
+  @apply bg-yellow-700;
+}
+
+.tag.programming {
+  @apply bg-blue-700;
+}
+
+.tag.hajinism {
+  @apply bg-indigo-700;
+}
+
+.tag.podong {
+  @apply bg-purple-700;
+}
+
+.tag.diary {
+  @apply bg-pink-700;
+}
+
+.tag.study {
+  @apply bg-green-700;
+}
