@@ -1,4 +1,4 @@
-# Blog
+# Decompressed Poems
 
 Blog made by [11r](https://github.com/reeseschultz/11r) template
 
