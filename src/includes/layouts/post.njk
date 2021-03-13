@@ -25,11 +25,11 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
 
         {% if date %}
             {% if updatedDate and (date|string) !== (updatedDate|string) %}
-              <p class="text-sm italic">Last updated on
-                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>. Created on
+              <p class="text-sm italic">마지막 수정 : 
+                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>. 최초 생성 : 
                     <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% else %}
-                <p class="text-sm italic">Created on
+                <p class="text-sm italic"> 최초 생성 : 
                     <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% endif %}
         {% endif %}
