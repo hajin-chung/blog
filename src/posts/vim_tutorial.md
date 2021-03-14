@@ -3,7 +3,7 @@ layout: post
 title: Vim 사용법
 excerpt: Vim 제대로 알고 사용하자!
 date: 2021-03-13
-updatedDate: 2021-03-13 
+updatedDate: 2021-03-14 
 tags:
   - post
   - programming
@@ -28,3 +28,21 @@ Vim의 모드는 물론 몇개 더 있지만 가장 많이 쓰이는 두가지�
 ### Insert Mode
 
 ```Insert Mode```는 ```Normal Mode```에서 ```i```키를 이용하여 들어갈 수 있다. 이 모드에서는 자유로운 텍스트 입력이 가능하다. 개인적으로 Vim이 어려운 이유가 ```Insert Mode```에서 커서이동이 제한되어서 라고 생각한다.
+
+
+## 유용한 단축키들
+
+### 이동
+
+- 줄 마지막으로 이동하기 : ```$```
+- 줄 처음으로 이동하기 : ```0```
+
+### 편집
+
+- Normal Mode 에세 줄 추가하기 : o
+- 단어 단위로 움직이기 : w (전진) b (후진)
+
+### 탭 관려
+
+[여기](https://www.tecmint.com/split-vim-screen/) 에서 참고함.
+
